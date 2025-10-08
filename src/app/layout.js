@@ -20,7 +20,7 @@ export const metadata = {
     authors: [{ name: "TiffinService" }],
 
     icons: {
-        icon: "/favicon.png",
+        icon: "favicon.png",
     },
 };
 
