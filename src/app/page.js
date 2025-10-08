@@ -18,11 +18,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TiffinService - Coming Soon</title>
+        <title>TiffinService – Your Trusted Platform for Fresh Homemade Tiffin Delivery</title>
         <meta
           name="description"
-          content="Discover the best tiffin services near you with TiffinService. Stay tuned for our launch!"
+          content="TiffinService connects you with verified local tiffin providers delivering fresh, homemade meals daily. Experience convenience, quality, and taste — launching soon!"
         />
+
         <meta
           name="keywords"
           content="Tiffin service, meal delivery, homemade food, tiffin search, food delivery"
@@ -30,7 +31,7 @@ export default function Home() {
         <meta name="author" content="TiffinService" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.TiffinService.app/" />
+        <link rel="canonical" href="https://www.tiffinservice.app/" />
 
         <meta property="og:title" content="TiffinService - Coming Soon" />
         <meta
@@ -38,8 +39,8 @@ export default function Home() {
           content="Discover the best tiffin services near you with TiffinService. Stay tuned for our launch!"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.TiffinService.app/" />
-        <meta property="og:image" content="https://www.TiffinService.app/og-image.jpg" />
+        <meta property="og:url" content="https://www.tiffinservice.app/" />
+        <meta property="og:image" content="https://www.tiffinservice.app/og-image.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="TiffinService - Coming Soon" />
@@ -47,7 +48,25 @@ export default function Home() {
           name="twitter:description"
           content="Discover the best tiffin services near you with TiffinService. Stay tuned for our launch!"
         />
-        <meta name="twitter:image" content="https://www.TiffinService.app/og-image.jpg" />
+        <meta name="twitter:image" content="https://www.tiffinservice.app/og-image.jpg" />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "TiffinService",
+            "url": "https://www.tiffinservice.app/",
+            "logo": "https://www.tiffinservice.app/logo.svg",
+            "sameAs": [
+              "https://www.facebook.com/TiffinSearchApp/",
+              "https://x.com/tiffinsearch",
+              "https://www.linkedin.com/products/seaneb-tiffin-search/",
+              "https://www.youtube.com/@tiffinsearch",
+              "https://www.instagram.com/tiffinsearch/",
+              "https://in.pinterest.com/tiffinsearch/"
+            ]
+          })}
+        </script>
       </Head>
 
       <div
