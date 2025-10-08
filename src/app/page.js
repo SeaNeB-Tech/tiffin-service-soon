@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta name="author" content="TiffinService" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/public/favicon.png" />
         <link rel="canonical" href="https://www.tiffinservice.app/" />
 
         <meta property="og:title" content="TiffinService - Coming Soon" />
