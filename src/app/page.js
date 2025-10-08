@@ -52,7 +52,7 @@ export default function Home() {
 
       <div
         className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-cover bg-center"
-        style={{ backgroundImage: "url('/food-bg.jpg')" }}
+        style={{ backgroundImage: "url('/food-bg.webp')" }}
       >
         <div className="absolute inset-0 bg-black/30"></div>
 
