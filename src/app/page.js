@@ -23,7 +23,7 @@ export default function Home() {
 
         <meta
           name="keywords"
-          content="Tiffin service, meal delivery, homemade food, tiffin search, food delivery"
+          content="Tiffin service, meal delivery, homemade food, tiffin services near me, food delivery"
         />
         <meta name="author" content="TiffinService" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -55,12 +55,12 @@ export default function Home() {
             "url": "https://www.tiffinservice.app/",
             "logo": "https://www.tiffinservice.app/logo.svg",
             "sameAs": [
-              "https://www.facebook.com/TiffinSearchApp/",
-              "https://x.com/tiffinsearch",
-              "https://www.linkedin.com/products/seaneb-tiffin-search/",
-              "https://www.youtube.com/@tiffinsearch",
-              "https://www.instagram.com/tiffinsearch/",
-              "https://in.pinterest.com/tiffinsearch/"
+              "https://www.facebook.com/tiffinserviceapp/",
+              "https://x.com/tiffinserviceap",
+              "https://www.linkedin.com/products/tiffinserviceapp",
+              "https://www.youtube.com/@tiffinserviceapp",
+              "https://www.instagram.com/tiffinserviceapp/",
+              "https://in.pinterest.com/tiffinserviceapp/"
             ]
           })}
         </script>
@@ -91,22 +91,22 @@ export default function Home() {
           </p>
 
           <div className="flex justify-center gap-4 sm:gap-6 mt-8 text-xl sm:text-2xl">
-            <a href="https://www.facebook.com/TiffinSearchApp/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/tiffinserviceapp/" target="_blank" rel="noopener noreferrer">
               <RiFacebookFill />
             </a>
-            <a href="https://x.com/tiffinsearch" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/tiffinserviceap" target="_blank" rel="noopener noreferrer">
               <RiTwitterLine />
             </a>
-            <a href="https://www.linkedin.com/products/seaneb-tiffin-search/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/products/tiffinserviceapp/" target="_blank" rel="noopener noreferrer">
               <RiLinkedinBoxLine />
             </a>
-            <a href="https://www.youtube.com/@tiffinsearch" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@tiffinserviceapp" target="_blank" rel="noopener noreferrer">
               <RiYoutubeLine />
             </a>
-            <a href="https://www.instagram.com/tiffinsearch/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/tiffinserviceapp/" target="_blank" rel="noopener noreferrer">
               <RiInstagramLine />
             </a>
-            <a href="https://in.pinterest.com/tiffinsearch/" target="_blank" rel="noopener noreferrer">
+            <a href="https://in.pinterest.com/tiffinserviceapp/" target="_blank" rel="noopener noreferrer">
               <RiPinterestLine />
             </a>
           </div>
