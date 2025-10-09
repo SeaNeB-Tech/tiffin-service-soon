@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,21 +32,22 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
+            {/* Logo (old version restored) */}
             <a
               href="/"
               aria-label="TiffinService Home"
               className="flex items-center space-x-2"
             >
-              <Image
+              <img
                 src="/logo.svg"
                 alt="TiffinService Logo"
-                width={36}
-                height={36}
-                priority
+                className="h-8 w-auto sm:h-9"
+                loading="eager"
+                decoding="async"
               />
-              <span className="sr-only">TiffinService</span>
             </a>
 
+            {/* Desktop Menu */}
             <ul className="hidden md:flex space-x-6">
               {navItems.map((item) => (
                 <li key={item.name}>
@@ -64,6 +64,7 @@ export default function Navbar() {
               ))}
             </ul>
 
+            {/* Mobile Menu Toggle */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden text-white focus:outline-none"
@@ -75,6 +76,7 @@ export default function Navbar() {
           </div>
         </div>
 
+        {/* Mobile Menu */}
         <div
           className={`md:hidden fixed top-16 left-0 w-full bg-black/90 backdrop-blur-md text-white transition-all duration-300 overflow-hidden ${
             menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
