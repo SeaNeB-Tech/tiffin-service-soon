@@ -9,6 +9,7 @@ import {
   RiLinkedinBoxLine,
   RiYoutubeLine
 } from "react-icons/ri";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>TiffinService – Your Trusted Platform for Fresh Homemade Tiffin Delivery</title>
+
         <meta
           name="description"
           content="TiffinService connects you with verified local tiffin providers delivering fresh, homemade meals daily. Experience convenience, quality, and taste — launching soon!"
@@ -66,6 +68,8 @@ export default function Home() {
         </script>
       </Head>
 
+      <Navbar />
+
       <div
         className="relative min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 overflow-hidden bg-cover bg-center"
         style={{ backgroundImage: "url('/food-bg.webp')" }}
@@ -73,11 +77,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/30"></div>
 
         <div className="relative z-10 text-center max-w-xl sm:max-w-2xl lg:max-w-3xl text-white">
-          <img
-            src="/logo.svg"
-            alt="TiffinService Logo"
-            className="mx-auto mb-4 h-12 sm:h-16 md:h-20 w-auto"
-          />
+
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
             Stay Tuned!
