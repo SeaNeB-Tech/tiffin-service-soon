@@ -10,6 +10,7 @@ import {
   RiYoutubeLine
 } from "react-icons/ri";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function Home() {
 
@@ -97,7 +98,7 @@ export default function Home() {
             <a href="https://x.com/tiffinserviceap" target="_blank" rel="noopener noreferrer">
               <RiTwitterLine />
             </a>
-            <a href="https://www.linkedin.com/products/tiffinserviceapp/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/showcase/tiffinserviceapp/" target="_blank" rel="noopener noreferrer">
               <RiLinkedinBoxLine />
             </a>
             <a href="https://www.youtube.com/@tiffinserviceapp" target="_blank" rel="noopener noreferrer">
@@ -112,10 +113,9 @@ export default function Home() {
           </div>
         </div>
 
-        <footer className="absolute bottom-4 text-white text-xs sm:text-sm z-10 text-center w-full">
-          &copy; 2025 TiffinService. All rights reserved.
-        </footer>
       </div>
+        <Footer />
+
     </>
   );
 }
