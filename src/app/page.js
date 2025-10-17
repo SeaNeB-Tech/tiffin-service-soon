@@ -60,7 +60,7 @@ export default function Home() {
             "sameAs": [
               "https://www.facebook.com/tiffinserviceapp/",
               "https://x.com/tiffinserviceap",
-              "https://www.linkedin.com/products/tiffinserviceapp",
+              "https://www.linkedin.com/showcase/tiffinserviceapp",
               "https://www.youtube.com/@tiffinserviceapp",
               "https://www.instagram.com/tiffinserviceapp/",
               "https://in.pinterest.com/tiffinserviceapp/"
