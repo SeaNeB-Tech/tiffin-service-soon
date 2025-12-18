@@ -9,8 +9,9 @@ export default function Navbar() {
 
   const navItems = [
     { name: "About", href: "https://about.tiffinservice.app/about", external: true },
-    { name: "Forum", href: "https://about.tiffinservice.app/forum", external: true },
+    { name: "Solution", href: "https://about.tiffinservice.app/tiffin-service-app", external: true },
     { name: "Blogs", href: "https://about.tiffinservice.app/blog", external: true },
+    { name: "Forum", href: "https://about.tiffinservice.app/forum", external: true },
     { name: "Partner", href: "https://about.tiffinservice.app/partner-with-us", external: true },
     { name: "Contact", href: "https://about.tiffinservice.app/contact", external: true },
   ];
